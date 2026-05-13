@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda Escolar</title>
+
+     <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+  <header>
+    <h1>Mi Agenda Escolar</h1>
+    <p>Organiza tus tareas, exámenes y metas de estudio</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Tareas</a>
+    <a href="#">Horarios</a>
+    <a href="#">Metas</a>
+    <a href="#">Materias</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>📚 Materias</h2>
+      <ul>
+        <li>Matemáticas</li>
+        <li>Español</li>
+        <li>Inglés</li>
+        <li>Ciencias</li>
+        <li>Sociales</li>
+        <li>Artistica</li>
+        <li>Educación Física</li>
+          <li>Informática</li>
+          <li>Historia</li> 
+          <l>Geografía</li>
+           <li>Biología</li>
+    
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>📝 Tareas Pendientes</h2>
+      <input type="text" id="tareaInput" placeholder="Escribe una nueva tarea">
+
+<button onclick="agregarTarea()" class="btn">
+  Agregar tarea
+</button>
+
+<ul id="listaTareas">
+  <li>Hacer taller de matemáticas</li>
+  <li>Preparar exposición de ciencias</li>
+  <li>Leer capítulo de español</li>
+</ul>
+    </div>
+
+    <div class="card">
+      <h2>⏰ Horario Escolar</h2>
+      <p>Lunes a Viernes - 6:30 AM a 1:00 PM</p>
+    </div>
+
+    <div class="card">
+      <h2>🎯 Metas de Estudio</h2>
+      <ul>
+        <li>Estudiar 2 horas diarias</li>
+        <li>Mejorar notas de inglés</li>
+        <li>Entregar tareas a tiempo</li>
+      </ul>
+
+      <a href="#" class="btn">Agregar Nueva Meta</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Proyecto Escolar - Agenda Web para Estudiantes</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
